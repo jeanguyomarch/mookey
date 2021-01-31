@@ -1,1 +1,5 @@
+title: mookey
+description: Leveraging USB keys for password mobility
 theme: jekyll-theme-cayman
+show_downloads: false
+safe: true

@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+---
+title: Home
+index: 0
+---
 
-You can use the [editor on GitHub](https://github.com/jeanguyomarch/mookey/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to `mookey`'s documentation. The following sections highlight
+different aspects to better understand the essence of this project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Motivations
 
-### Markdown
+`mookey` exists because it seems there is a little gap in password management
+and especially in **password mobility**, that is when you want to share secrets
+(e.g. passwords) between computers without relying on network solutions. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Read the full motivations behind `mookey`.][1]
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Threat Model
 
-- Bulleted
-- List
+`mookey` has a well-specified threat model. Read it carefully to understand
+whether this suits your needs (security, privacy, reliability requirements)
+or not.
 
-1. Numbered
-2. List
+[Discover the exhaustive threat model of `mookey`.][2]
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+# Building a mookey
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Once you are familiar with its [motivations][1] and [threat model][2],
+and if `mookey` suits your needs, you can try creating one.
 
-### Jekyll Themes
+[Read how to build a `mookey`][3]
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jeanguyomarch/mookey/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[1]: {% link motivations.md %}
+[2]: {% link threat_model.md %}
+[3]: {% link build.md %}

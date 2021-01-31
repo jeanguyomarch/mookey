@@ -1,0 +1,8 @@
+mookey
+Yubikey
+Yubico
+Wookey
+Nitrokey
+Lockwise
+firmware[s]
+backdoor[s]
