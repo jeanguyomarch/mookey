@@ -1,5 +1,6 @@
 ---
 title: Motivations
+permalink: /motivations/
 index: 10
 ---
 

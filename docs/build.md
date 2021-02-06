@@ -1,5 +1,6 @@
 ---
 title: Build
+permalink: /build/
 index: 40
 ---
 

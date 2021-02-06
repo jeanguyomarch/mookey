@@ -1,5 +1,6 @@
 ---
 title: Threat Model
+permalink: /threat_model/
 index: 30
 ---
 
