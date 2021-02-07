@@ -21,7 +21,7 @@
         {% if page_it.url == page.url %}
         {{ page_it.title }}
         {% else %}
-        <a href="{{ page_it.url }}">{{ page_it.title }}</a>
+        <a href="{{ page_it.url | relative_url }}">{{ page_it.title }}</a>
         {% endif %}
       {% if forloop.last == false %} | {% endif %}
       </b>
